@@ -4,11 +4,18 @@ Console.WriteLine("Введите желаемое число:");
 
 int N = int.Parse(Console.ReadLine());
 
-int i = 0;
+int i = 1;
 
-while(i < N)
+while(i <= N)
 {
-    i += 2;
-    Console.Write(i);
-    Console.Write(" ");
+    if(i % 2 == 0)
+    {
+        Console.Write(i);
+        Console.Write(" ");
+        i++;
+    }
+    else
+    {
+        i++;
+    }
 }

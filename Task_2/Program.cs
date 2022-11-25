@@ -13,7 +13,7 @@ if(a == b | a == c | b == c)
 }
 else
 {
-    if(max > b)
+    if(a > b)
     {
         max = a;
     }
@@ -21,17 +21,14 @@ else
     {
         max = b;
     }
-    if(max < c)
+
+    if(c > max)
     {
         max = c;
     }
-    else
-    {
-        max = a;
-    }
+    
     Console.Write("Максимальное число = ");
     Console.Write(max);
     Console.WriteLine(" .");
     Console.Write("Поздравляем, Вы справились !)");
 }
-

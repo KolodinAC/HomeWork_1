@@ -12,10 +12,6 @@ while(i <= N)
     {
         Console.Write(i);
         Console.Write(" ");
-        i++;
     }
-    else
-    {
-        i++;
-    }
+    i++;
 }
